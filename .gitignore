@@ -1,0 +1,45 @@
+plan.md
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+.directory
+
+# Editors / IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Build output
+build/
+dist/
+bin/
+obj/
+out/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Project
+imgui.ini
+.cache/
